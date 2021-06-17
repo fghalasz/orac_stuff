@@ -1,0 +1,11 @@
+{
+    "display" : "Chimes",
+    "parameters" :  [ 
+        ["bool","ch_play","Play Scale",0],
+        ["int","ch_vel","Velocity",1,126,95]
+    ],
+    "pages" : [ 
+        ["pg_main","Main",["ch_play","ch_vel"]]
+    ]
+}
+
